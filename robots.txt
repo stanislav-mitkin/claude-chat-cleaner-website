@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://claude-chat-cleaner.vercel.app/sitemap.xml

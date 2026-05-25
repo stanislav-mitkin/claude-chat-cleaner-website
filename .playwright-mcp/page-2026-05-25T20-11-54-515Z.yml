@@ -1,0 +1,229 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Claude Chat Cleaner Claude Chat Cleaner" [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - img "Claude Chat Cleaner" [ref=e5]
+        - generic [ref=e6]: Claude Chat Cleaner
+      - generic [ref=e7]:
+        - combobox "Language" [ref=e8] [cursor=pointer]:
+          - option "English" [selected]
+          - option "Русский"
+          - option "Deutsch"
+          - option "Français"
+          - option "Español"
+          - option "Português"
+          - option "Italiano"
+          - option "Polski"
+          - option "中文（简体）"
+          - option "日本語"
+          - option "한국어"
+          - option "العربية"
+        - link "GitHub" [ref=e9] [cursor=pointer]:
+          - /url: https://github.com/stanislav-mitkin/claude-chat-cleaner
+        - link "Add to Chrome" [ref=e10] [cursor=pointer]:
+          - /url: "#"
+  - generic [ref=e11]:
+    - generic [ref=e12]: Chrome Extension · Free
+    - heading "Clean Your Claude History in Seconds" [level=1] [ref=e13]
+    - paragraph [ref=e14]: Select and bulk-delete dozens of conversations at once. Keyboard-first, no popups, pure speed.
+    - generic [ref=e15]:
+      - link "Add to Chrome — Free" [ref=e16] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e17]
+        - generic [ref=e20]: Add to Chrome — Free
+      - link "View on GitHub" [ref=e21] [cursor=pointer]:
+        - /url: https://github.com/stanislav-mitkin/claude-chat-cleaner
+    - paragraph [ref=e22]: Zero tracking · Runs locally · Free forever
+  - generic [ref=e24]:
+    - generic [ref=e29]: claude.ai/chats
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - generic [ref=e32]: Chats
+        - generic [ref=e33]:
+          - img [ref=e35]
+          - generic [ref=e37]: Debug my React hook
+        - generic [ref=e38]:
+          - img [ref=e40]
+          - generic [ref=e42]: Email draft for client
+        - generic [ref=e43]:
+          - img [ref=e45]
+          - generic [ref=e47]: SQL query help
+        - generic [ref=e50]: Project roadmap ideas
+        - generic [ref=e53]: Resume review
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - strong [ref=e57]: "3"
+          - generic [ref=e58]: chats selected
+          - generic [ref=e59]: Enter ×2
+        - button "Delete" [ref=e60] [cursor=pointer]
+  - generic [ref=e61]:
+    - paragraph [ref=e62]: Demo
+    - heading "See it in action" [level=2] [ref=e63]
+    - paragraph [ref=e64]: Watch how fast you can clean up hundreds of chats
+    - iframe [ref=e66]:
+      
+  - generic [ref=e67]:
+    - generic [ref=e68]:
+      - paragraph [ref=e69]: Features
+      - heading "Everything you need" [level=2] [ref=e70]
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - img [ref=e74]
+        - generic [ref=e77]: Bulk Delete
+        - generic [ref=e78]: Remove dozens or hundreds of conversations in one action.
+      - generic [ref=e79]:
+        - img [ref=e81]
+        - generic [ref=e84]: Keyboard-First
+        - generic [ref=e85]: "Full workflow without touching the mouse: select, confirm, delete."
+      - generic [ref=e86]:
+        - img [ref=e88]
+        - generic [ref=e91]: Select All
+        - generic [ref=e92]: Ctrl+A selects every visible conversation instantly.
+      - generic [ref=e93]:
+        - img [ref=e95]
+        - generic [ref=e98]: Double Confirm
+        - generic [ref=e99]: A second keypress required before deletion — accidental wipes are impossible.
+      - generic [ref=e100]:
+        - img [ref=e102]
+        - generic [ref=e104]: Progress Bar
+        - generic [ref=e105]: Real-time feedback while deletions are processed.
+      - generic [ref=e106]:
+        - img [ref=e108]
+        - generic [ref=e112]: Optimistic UI
+        - generic [ref=e113]: Chats vanish instantly. Automatically restored if an API call fails.
+      - generic [ref=e114]:
+        - img [ref=e116]
+        - generic [ref=e119]: Zero Tracking
+        - generic [ref=e120]: No analytics, no telemetry. All logic runs locally in your browser.
+      - generic [ref=e121]:
+        - img [ref=e123]
+        - generic [ref=e125]: Open Source
+        - generic [ref=e126]: Fully auditable code on GitHub. No hidden behaviour, ever.
+  - generic [ref=e128]:
+    - paragraph [ref=e129]: How it works
+    - heading "Five steps to a clean slate" [level=2] [ref=e130]
+    - list [ref=e131]:
+      - listitem [ref=e132]:
+        - generic [ref=e133]: "1"
+        - generic [ref=e134]: Open claude.ai in Chrome
+      - listitem [ref=e135]:
+        - generic [ref=e136]: "2"
+        - generic [ref=e137]: Click "Select chats" or press Ctrl+Shift+X
+      - listitem [ref=e138]:
+        - generic [ref=e139]: "3"
+        - generic [ref=e140]: Click conversations to toggle, or press Ctrl+A to select all
+      - listitem [ref=e141]:
+        - generic [ref=e142]: "4"
+        - generic [ref=e143]: Press Enter — then press again within 2 s to confirm
+      - listitem [ref=e144]:
+        - generic [ref=e145]: "5"
+        - generic [ref=e146]: Done — selected chats are deleted instantly
+  - generic [ref=e147]:
+    - paragraph [ref=e148]: Shortcuts
+    - heading "Keyboard Shortcuts" [level=2] [ref=e149]
+    - table [ref=e150]:
+      - rowgroup [ref=e151]:
+        - row "Ctrl+Shift+X ⌘⇧X Toggle Selection mode" [ref=e152]:
+          - cell "Ctrl+Shift+X ⌘⇧X" [ref=e153]:
+            - generic [ref=e154]: Ctrl+Shift+X
+            - generic [ref=e155]: ⌘⇧X
+          - cell "Toggle Selection mode" [ref=e156]
+        - row "Click Space Toggle chat selection" [ref=e157]:
+          - cell "Click Space" [ref=e158]:
+            - generic [ref=e159]: Click
+            - generic [ref=e160]: Space
+          - cell "Toggle chat selection" [ref=e161]
+        - row "Ctrl+A ⌘A Select all chats" [ref=e162]:
+          - cell "Ctrl+A ⌘A" [ref=e163]:
+            - generic [ref=e164]: Ctrl+A
+            - generic [ref=e165]: ⌘A
+          - cell "Select all chats" [ref=e166]
+        - row "Ctrl+D ⌘D Clear selection" [ref=e167]:
+          - cell "Ctrl+D ⌘D" [ref=e168]:
+            - generic [ref=e169]: Ctrl+D
+            - generic [ref=e170]: ⌘D
+          - cell "Clear selection" [ref=e171]
+        - row "Enter Enter Confirm and delete (press twice)" [ref=e172]:
+          - cell "Enter Enter" [ref=e173]:
+            - generic [ref=e174]: Enter
+            - generic [ref=e175]: Enter
+          - cell "Confirm and delete (press twice)" [ref=e176]
+        - row "Esc Exit Selection mode" [ref=e177]:
+          - cell "Esc" [ref=e178]:
+            - generic [ref=e179]: Esc
+          - cell "Exit Selection mode" [ref=e180]
+  - generic [ref=e182]:
+    - img [ref=e184]
+    - heading "Your privacy is protected" [level=2] [ref=e186]
+    - paragraph [ref=e187]: The extension runs entirely within your browser tab. It uses Claude's own API with your existing login session — no data ever reaches any third-party server.
+    - generic [ref=e188]: "🔒 Only one permission required: access to claude.ai"
+  - generic [ref=e189]:
+    - generic [ref=e190]:
+      - paragraph [ref=e191]: Who uses it
+      - heading "Built for every Claude power user" [level=2] [ref=e192]
+    - generic [ref=e193]:
+      - generic [ref=e194]:
+        - generic [ref=e195]: 👩‍💻
+        - generic [ref=e196]: Developers
+        - generic [ref=e197]: Dozens of coding sessions pile up fast. Bulk-delete old debugging chats without losing the ones that matter.
+      - generic [ref=e198]:
+        - generic [ref=e199]: ✍️
+        - generic [ref=e200]: Writers
+        - generic [ref=e201]: Clear out draft brainstorms and editing sessions after a project ships. Keep your sidebar uncluttered.
+      - generic [ref=e202]:
+        - generic [ref=e203]: 🎓
+        - generic [ref=e204]: Students
+        - generic [ref=e205]: Delete hundreds of homework and study chats at the end of a semester in one action.
+      - generic [ref=e206]:
+        - generic [ref=e207]: 🔬
+        - generic [ref=e208]: Researchers
+        - generic [ref=e209]: Manage large conversation archives. Select and remove whole research threads by topic.
+      - generic [ref=e210]:
+        - generic [ref=e211]: 📊
+        - generic [ref=e212]: Marketers
+        - generic [ref=e213]: Keep only high-value campaign chats. Wipe exploratory brainstorms you no longer need.
+      - generic [ref=e214]:
+        - generic [ref=e215]: 🔒
+        - generic [ref=e216]: Privacy-conscious users
+        - generic [ref=e217]: Regularly purge your Claude history to minimise data stored on Anthropic's servers.
+  - generic [ref=e219]:
+    - generic [ref=e220]:
+      - paragraph [ref=e221]: FAQ
+      - heading "Frequently asked questions" [level=2] [ref=e222]
+    - generic [ref=e223]:
+      - group [ref=e224]:
+        - generic "Can you delete multiple Claude conversations at once? +" [ref=e225] [cursor=pointer]
+      - group [ref=e226]:
+        - generic "How do I bulk delete Claude history? +" [ref=e227] [cursor=pointer]
+      - group [ref=e228]:
+        - generic "Is Claude Chat Cleaner safe to use? +" [ref=e229] [cursor=pointer]
+      - group [ref=e230]:
+        - generic "Does it work on Mac? +" [ref=e231] [cursor=pointer]
+      - group [ref=e232]:
+        - generic "Does it work with Claude Pro, Team, or Enterprise? +" [ref=e233] [cursor=pointer]
+      - group [ref=e234]:
+        - generic "Will deleting conversations affect my Claude account? +" [ref=e235] [cursor=pointer]
+      - group [ref=e236]:
+        - generic "What happens if a deletion fails? +" [ref=e237] [cursor=pointer]
+      - group [ref=e238]:
+        - generic "Is Claude Chat Cleaner really free? +" [ref=e239] [cursor=pointer]
+  - generic [ref=e240]:
+    - paragraph [ref=e241]: Get started
+    - heading "Ready to clean up?" [level=2] [ref=e242]
+    - paragraph [ref=e243]: Free, open source, takes 10 seconds to install.
+    - link "Add to Chrome — Free" [ref=e244] [cursor=pointer]:
+      - /url: "#"
+      - img [ref=e245]
+      - generic [ref=e248]: Add to Chrome — Free
+  - contentinfo [ref=e249]:
+    - generic [ref=e250]:
+      - generic [ref=e251]:
+        - generic [ref=e253]: Claude Chat Cleaner
+        - generic [ref=e254]: Fast, private, free.
+      - generic [ref=e255]:
+        - link "Install" [ref=e256] [cursor=pointer]:
+          - /url: "#"
+        - link "Source Code" [ref=e257] [cursor=pointer]:
+          - /url: https://github.com/stanislav-mitkin/claude-chat-cleaner
+      - generic [ref=e258]: © 2026 Claude Chat Cleaner
