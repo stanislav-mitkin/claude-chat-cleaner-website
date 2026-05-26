@@ -161,15 +161,15 @@
       }
 
       :root {
-        --bg: #0f0f0f;
-        --surface: #1a1a1a;
-        --surface2: #232323;
-        --accent: #10a37f;
-        --accent-hover: #0d9270;
-        --accent-dim: rgba(16, 163, 127, 0.12);
-        --text: #f0f0f0;
-        --text-muted: #8a8a9a;
-        --border: #2a2a2a;
+        --bg: #ffffff;
+        --surface: #f7f4f1;
+        --surface2: #ede9e5;
+        --accent: #d4621a;
+        --accent-hover: #bf5618;
+        --accent-dim: rgba(212, 98, 26, 0.1);
+        --text: #1a1a1a;
+        --text-muted: #6b6560;
+        --border: #e2ddd8;
         --radius: 12px;
       }
 
@@ -201,7 +201,7 @@
         left: 0;
         right: 0;
         z-index: 100;
-        background: rgba(15, 15, 15, 0.85);
+        background: rgba(255, 255, 255, 0.9);
         backdrop-filter: blur(16px);
         border-bottom: 1px solid var(--border);
       }
@@ -292,7 +292,7 @@
         align-items: center;
         gap: 8px;
         background: var(--accent-dim);
-        border: 1px solid rgba(16, 163, 127, 0.3);
+        border: 1px solid rgba(212, 98, 26, 0.3);
         color: var(--accent);
         border-radius: 100px;
         padding: 5px 14px;
@@ -315,10 +315,7 @@
         line-height: 1.1;
         max-width: 820px;
         margin: 0 auto 20px;
-        background: linear-gradient(135deg, #fff 0%, #a0a0b0 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+        color: var(--text);
       }
       .hero-sub {
         font-size: clamp(16px, 2vw, 20px);
@@ -393,7 +390,7 @@
         border-radius: 14px;
         border: 1px solid var(--border);
         overflow: hidden;
-        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.12);
       }
       .demo-titlebar {
         display: flex;
@@ -461,7 +458,7 @@
         cursor: default;
       }
       .demo-item.selected {
-        background: rgba(16, 163, 127, 0.15);
+        background: rgba(212, 98, 26, 0.18);
         color: var(--text);
       }
       .demo-check {
@@ -571,7 +568,7 @@
         border-radius: 14px;
         overflow: hidden;
         border: 1px solid var(--border);
-        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 24px 60px rgba(0, 0, 0, 0.1);
         aspect-ratio: 16/9;
       }
       .video-frame iframe {
@@ -604,7 +601,7 @@
         transition: border-color 0.2s;
       }
       .feat-card:hover {
-        border-color: rgba(16, 163, 127, 0.4);
+        border-color: rgba(212, 98, 26, 0.4);
       }
       .feat-icon {
         width: 40px;
@@ -898,7 +895,7 @@
         transition: border-color 0.2s;
       }
       .persona-card:hover {
-        border-color: rgba(16, 163, 127, 0.4);
+        border-color: rgba(212, 98, 26, 0.4);
       }
       .persona-emoji {
         font-size: 24px;
@@ -1058,65 +1055,6 @@
       </p>
     </section>
 
-    <!-- DEMO MOCKUP -->
-    <div class="demo-wrap">
-      <div class="demo-browser">
-        <div class="demo-titlebar">
-          <div class="demo-dot red"></div>
-          <div class="demo-dot yellow"></div>
-          <div class="demo-dot green"></div>
-          <div class="demo-url">claude.ai/chats</div>
-        </div>
-        <div class="demo-body">
-          <div class="demo-sidebar">
-            <div class="demo-sidebar-title">Chats</div>
-            <div class="demo-item selected">
-              <div class="demo-check">
-                <svg class="demo-check-icon" viewBox="0 0 10 10">
-                  <polyline points="1.5,5 4,7.5 8.5,2.5" />
-                </svg>
-              </div>
-              <span class="demo-label">Debug my React hook</span>
-            </div>
-            <div class="demo-item selected">
-              <div class="demo-check">
-                <svg class="demo-check-icon" viewBox="0 0 10 10">
-                  <polyline points="1.5,5 4,7.5 8.5,2.5" />
-                </svg>
-              </div>
-              <span class="demo-label">Email draft for client</span>
-            </div>
-            <div class="demo-item selected">
-              <div class="demo-check">
-                <svg class="demo-check-icon" viewBox="0 0 10 10">
-                  <polyline points="1.5,5 4,7.5 8.5,2.5" />
-                </svg>
-              </div>
-              <span class="demo-label">SQL query help</span>
-            </div>
-            <div class="demo-item">
-              <div class="demo-check"></div>
-              <span class="demo-label">Project roadmap ideas</span>
-            </div>
-            <div class="demo-item">
-              <div class="demo-check"></div>
-              <span class="demo-label">Resume review</span>
-            </div>
-          </div>
-          <div class="demo-main">
-            <div class="demo-toolbar">
-              <div class="demo-toolbar-left">
-                <strong>3</strong>
-                <span id="demoLabel">chats selected</span>
-                <span class="demo-kbd">Enter ×2</span>
-              </div>
-              <button class="demo-del-btn" id="demoDelBtn">Delete</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- VIDEO -->
     <section class="video-section">
       <p class="section-label" data-i18n="video_label">Demo</p>
@@ -1126,10 +1064,16 @@
       </p>
       <div class="video-frame">
         <iframe
-          src="about:blank"
-          data-src="https://www.youtube.com/embed/"
-          title="Claude Chat Cleaner demo"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          src="https://www.youtube.com/embed/We_nhUzZ7_Q"
+          title="ChatGPT Chat Cleaner demo"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+          "
           allowfullscreen
           loading="lazy"
         >
@@ -1400,9 +1344,7 @@
           <td data-i18n="key_clear">Clear selection</td>
         </tr>
         <tr>
-          <td>
-            <span class="kbd">Enter</span> <span class="kbd">Enter</span>
-          </td>
+          <td><span class="kbd">Enter</span> <span class="kbd">Enter</span></td>
           <td data-i18n="key_delete">Confirm and delete (press twice)</td>
         </tr>
         <tr>
@@ -1524,9 +1466,8 @@
               Install Claude Chat Cleaner from the Chrome Web Store. On
               claude.ai, press <kbd>Ctrl+Shift+X</kbd> (or <kbd>⌘⇧X</kbd> on
               Mac) to enter selection mode, click conversations or press
-              <kbd>Ctrl+A</kbd> to select all, then press
-              <kbd>Enter</kbd> twice to confirm. The extension processes all
-              deletions automatically.
+              <kbd>Ctrl+A</kbd> to select all, then press <kbd>Enter</kbd> twice
+              to confirm. The extension processes all deletions automatically.
             </p>
           </details>
           <details class="faq-item">
@@ -1534,8 +1475,8 @@
             <p class="faq-a">
               Yes. The extension uses your existing Claude login session and
               Claude's own API — no data is ever sent to a third-party server.
-              It requires only one browser permission: access to claude.ai.
-              The source code is open on GitHub.
+              It requires only one browser permission: access to claude.ai. The
+              source code is open on GitHub.
             </p>
           </details>
           <details class="faq-item">
@@ -1697,7 +1638,8 @@
             feat7_desc:
               "No analytics, no telemetry. All logic runs locally in your browser.",
             feat8_title: "Open Source",
-            feat8_desc: "Fully auditable code on GitHub. No hidden behaviour, ever.",
+            feat8_desc:
+              "Fully auditable code on GitHub. No hidden behaviour, ever.",
             how_label: "How it works",
             how_title: "Five steps to a clean slate",
             step1: "Open claude.ai in Chrome",
@@ -1780,7 +1722,8 @@
             step2: "Нажмите кнопку «Выбрать чаты» или Ctrl+Shift+X",
             step3:
               "Кликайте на чаты для выбора или нажмите Ctrl+A для выбора всех",
-            step4: "Нажмите Enter — затем ещё раз в течение 2 с для подтверждения",
+            step4:
+              "Нажмите Enter — затем ещё раз в течение 2 с для подтверждения",
             step5: "Готово — выбранные чаты удалены мгновенно",
             shortcuts_label: "Горячие клавиши",
             shortcuts_title: "Горячие клавиши",
@@ -1854,7 +1797,8 @@
             step2: 'Klicke auf "Chats auswählen" oder drücke Strg+Umschalt+X',
             step3:
               "Klicke auf Gespräche zum Auswählen oder drücke Strg+A für alle",
-            step4: "Drücke Enter — dann nochmals innerhalb von 2 s zur Bestätigung",
+            step4:
+              "Drücke Enter — dann nochmals innerhalb von 2 s zur Bestätigung",
             step5: "Fertig — ausgewählte Chats werden sofort gelöscht",
             shortcuts_label: "Tastenkürzel",
             shortcuts_title: "Tastenkürzel",
@@ -1933,7 +1877,8 @@
               "Cliquez sur « Sélectionner des chats » ou appuyez sur Ctrl+Maj+X",
             step3:
               "Cliquez sur les conversations pour les sélectionner, ou Ctrl+A pour tout",
-            step4: "Appuyez sur Entrée — puis à nouveau dans les 2 s pour confirmer",
+            step4:
+              "Appuyez sur Entrée — puis à nouveau dans les 2 s pour confirmer",
             step5:
               "Terminé — les chats sélectionnés sont supprimés instantanément",
             shortcuts_label: "Raccourcis",
@@ -2239,7 +2184,8 @@
             step2: 'Kliknij "Wybierz czaty" lub naciśnij Ctrl+Shift+X',
             step3:
               "Kliknij rozmowy, aby je zaznaczyć, lub Ctrl+A dla wszystkich",
-            step4: "Naciśnij Enter — a następnie ponownie w 2 s, aby potwierdzić",
+            step4:
+              "Naciśnij Enter — a następnie ponownie w 2 s, aby potwierdzić",
             step5: "Gotowe — wybrane czaty zostaną natychmiast usunięte",
             shortcuts_label: "Skróty",
             shortcuts_title: "Skróty klawiszowe",
@@ -2363,8 +2309,7 @@
             feat5_title: "プログレスバー",
             feat5_desc: "削除処理中のリアルタイムフィードバック。",
             feat6_title: "楽観的UI",
-            feat6_desc:
-              "チャットが即座に消える。API失敗時は自動的に復元。",
+            feat6_desc: "チャットが即座に消える。API失敗時は自動的に復元。",
             feat7_title: "追跡なし",
             feat7_desc:
               "分析なし、テレメトリなし。すべてのロジックがローカルで実行。",
@@ -2440,8 +2385,7 @@
             feat7_desc:
               "분석 없음, 텔레메트리 없음. 모든 로직이 로컬에서 실행됩니다.",
             feat8_title: "오픈 소스",
-            feat8_desc:
-              "GitHub에서 완전히 감사 가능한 코드. 숨겨진 동작 없음.",
+            feat8_desc: "GitHub에서 완전히 감사 가능한 코드. 숨겨진 동작 없음.",
             how_label: "사용 방법",
             how_title: "깨끗한 기록을 위한 5단계",
             step1: "Chrome에서 claude.ai 열기",
@@ -2504,8 +2448,7 @@
             feat5_title: "شريط التقدم",
             feat5_desc: "ملاحظات فورية أثناء معالجة عمليات الحذف.",
             feat6_title: "واجهة متفائلة",
-            feat6_desc:
-              "تختفي المحادثات فوراً. تُستعاد تلقائياً عند فشل API.",
+            feat6_desc: "تختفي المحادثات فوراً. تُستعاد تلقائياً عند فشل API.",
             feat7_title: "بدون تتبع",
             feat7_desc: "لا تحليلات، لا قياسات عن بُعد. كل المنطق يعمل محلياً.",
             feat8_title: "مفتوح المصدر",
